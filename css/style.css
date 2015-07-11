@@ -1,0 +1,106 @@
+body{
+    /*background img need to be checked.*/
+    background: #39C url("../images/bg_blue.jpg") repeat fixed 0% 0%;
+    width: 960px;
+    margin: 0px auto;
+    color:#000000;
+    text-align:center;
+}
+body div.wrapper{
+    margin-top: 3em;
+    width: 100%;
+}
+header{
+    height: 5em;
+}
+header span{
+    float: left;
+}
+
+header span a img{
+    border: 0px;
+    width: 60px;
+    height: 60px;
+}
+#logo{
+    height: 100%;
+    width: auto;
+}
+
+header nav {
+    display: inline-block;
+    width:80%;
+    height:100%;
+    float: right;
+    padding-right: 3px;
+}
+
+header nav ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    float: right;
+    text-align: right;
+}
+
+header nav ul li {
+    display:inline-block;
+    height:100%;
+    line-height: 100%;
+    padding-right: 2em;
+}
+
+#nav-item-5{
+    padding-right: 0px;
+}
+
+header nav ul li a{
+    display: inline-block;
+    line-height: 100%;
+    text-decoration: none;
+    color:#FFF;
+    font-family:'Microsoft YaHei','Hiragino Sans GB',Helvetica,Arial,'Lucida Grande',sans-serif;
+    font-size: 1.5em;
+    text-align:center;
+}
+
+header nav ul li a:hover{
+    border-bottom: 3px solid #2a85bb;
+}
+
+section{
+    width: 100%;
+    height: 500px;
+    background: url("../images/section_background.jpg")  0 0;
+    margin-bottom: 3em;
+}
+
+article{
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+article span{
+    vertical-align: top;
+    display: inline-block;
+    height: 100%;
+    width: 32%;
+    background-color: lightyellow;
+}
+
+#technology{
+    margin-left: 3px;
+    float: left;
+}
+#more{
+    margin-right: 3px;
+    float: right;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
