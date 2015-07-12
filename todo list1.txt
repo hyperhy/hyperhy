@@ -1,4 +1,18 @@
 todo list
+
 change logo
+
 change background img
+
 扩大nav中链接的可点击区域
+
+URL显示问题，不显示真实路径http://hyperhy.com/hyperhy_com/blog/ --> blog.hyperhy.com
+
+
+<script type="text/javascript">
+var _tkADDD = new tkSwitchAD("tklisttt","tkBottunnn",5000,30);
+</script>
+var申明了一个变量，为什么不直接调用函数，而是要通过申明变量的方法来调用这个函数。
+
+
+怎么生成min.js文件，以及怎么使用

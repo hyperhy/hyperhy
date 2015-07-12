@@ -4,6 +4,7 @@
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 	<title>hyperhy</title>
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<script type=text/javascript src="scripts/BannerSwitch.js"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -33,8 +34,39 @@
 				</ul>
 			</nav>
 		</header>
-		<section id="broadcast">
-
+		<section id="banner">
+			<div class="tkWrap">
+				<ul id="tklist" class="tkAD">
+					<li style='opacity:1;filter:Alpha(Opacity=100)'>
+						<a href="#">
+							<img src="images/section_background1.jpg"
+								 alt="banenr title01"
+								 title=" banenr title01 "
+								 width=100% height=100%/>
+						</a>
+					</li>
+					<li style='opacity:0;filter:Alpha(Opacity=0)'>
+						<a href="#">
+							<img src="images/section_background2.jpg"
+								 alt="banenr title03"
+								 title=" banenr title03 "
+								 width=100% height=100%/>
+						</a>
+					</li>
+					<li style='opacity:0;filter:Alpha(Opacity=0)'>
+						<a href="#">
+							<img src="images/section_background3.jpg"
+								 alt="banenr title02"
+								 title=" banenr title02 "
+								 width=100% height=100%/>
+						</a>
+					</li>
+				</ul>
+				<div id="tkBottun" class="tkBtn"></div>
+			</div>
+			<script type="text/javascript">
+				var _tkAD = new BannerSwitch("tklist","tkBottun");
+			</script>
 		</section>
 		<article>
 			<span id="technology">
